@@ -7,7 +7,7 @@
 * Name: String
 * CellPhone: String
 * Address: String
-* MatRemnantInGrams: Double(остаток материала в гр.)
+* MatRemnantInGrams: Double
 * MatRemnantInPieces: Int
 
 ## Описание атрибутов
