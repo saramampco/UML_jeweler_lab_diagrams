@@ -9,13 +9,13 @@
 * **DelSubmitalMaterial**(SubmittalID : Int, MaterialID : Int) : Bool - удаление материала из филиала;
 * **FindAll**sorting : string, filtering : string, sortingA : boolean, count : int, page : int) : List<[Submittal](https://github.com/saramampco/oop/blob/master/docs/Submittal.md)> – функция, возвращающая список филиалов с заданными параметрами. Параметры:
    
-    *sortintg : string — отвечает, по какому полю будет сортироваться список;
+    * sortintg : string — отвечает, по какому полю будет сортироваться список;
 	
-	*filtering : string — отвечает за фильтрацию;
+	* filtering : string — отвечает за фильтрацию;
     
-	*sortingA : boolean — отвечает, по возрастанию или убыванию будут сортироваться элементы;
+	* sortingA : boolean — отвечает, по возрастанию или убыванию будут сортироваться элементы;
 	
-	*page : int — отвечает, с какой страницы начинать поиск элементов;
+	* page : int — отвечает, с какой страницы начинать поиск элементов;
 	
 * **FindByID**(ID : Int) : [Submittal](https://github.com/saramampco/oop/blob/master/docs/Submittal.md) – функция, осуществляющая поиск филиала в базе данных по ID и возвращающая найденный, если такой есть;
 * **GetMaterialRemnant**(SubmittalID : Int) : Dictionary<[Material](https://github.com/saramampco/oop/blob/master/docs/Material.md), Double> - функция, возвращающая остатки материалов в филиале;
