@@ -12,7 +12,7 @@
 ## Диаграммы интерфейсов
 ![](./img/3.png "img3")
 ## Список всех интерфейсов
-* [IOrder](#IOrder);
+* [IOrder](https://github.com/saramampco/oop/blob/master/docs/IOrder.md);
 * [IJeweller](https://github.com/saramampco/oop/blob/master/docs/IJeweller.md);
 * [IClient](https://github.com/saramampco/oop/blob/master/docs/IClient.md);
 * [ISubmittal](https://github.com/saramampco/oop/blob/master/docs/ISubmittal.md);
